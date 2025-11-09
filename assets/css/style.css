@@ -163,3 +163,25 @@ button[type="submit"] {
 button[type="submit"]:hover {
 	background-color: var(--color-principal-hover);
 }
+
+/* Icono Whatsapp */
+#whatsapp {
+	position: absolute;
+	bottom: 220px;
+	right: 20px;
+	width: 60px;
+	height: 60px;
+	background-color: var(--color-secundario);
+	border-radius: 5px;
+	z-index: 3;
+}
+
+#whatsapp:hover {
+	background-color: var(--color-principal-hover);
+}
+
+#icon-whatsapp {
+	stroke: white;
+	display: block;
+	margin: 10px 0 0 10px;
+}
